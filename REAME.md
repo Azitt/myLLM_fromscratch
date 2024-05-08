@@ -1,0 +1,1 @@
+In this repo I'm going to implement and train and LLM model from scratch based on Sbastian book.
