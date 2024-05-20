@@ -99,7 +99,7 @@ print(dropout(attn_weights))
 # print(context_vec_2)
 
 ## droput of 50 rate for demo#################
-torch.manual_seed(123)
+torch.manual_seed(123)  ## random seed
 dropout = torch.nn.Dropout(0.5) 
 example = torch.ones(6, 6) 
 print(dropout(example))
