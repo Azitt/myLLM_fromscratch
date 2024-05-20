@@ -100,6 +100,6 @@ print(dropout(attn_weights))
 
 ## droput of 50 rate for demo#################
 torch.manual_seed(123)
-dropout = torch.nn.Dropout(0.5) #A
-example = torch.ones(6, 6) #B
+dropout = torch.nn.Dropout(0.5) 
+example = torch.ones(6, 6) 
 print(dropout(example))
