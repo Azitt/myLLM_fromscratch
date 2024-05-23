@@ -103,3 +103,8 @@ torch.manual_seed(123)  ## random seed
 dropout = torch.nn.Dropout(0.5) 
 example = torch.ones(6, 6) 
 print(dropout(example))
+
+## simulating batch inputs##########
+#A 2 inputs with 6 tokens each, and each token has embedding dimension 3
+batch = torch.stack((inputs, inputs), dim=0)
+print(batch.shape)
